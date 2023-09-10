@@ -8,12 +8,12 @@ plugins {
 
 android {
     namespace 'com.jkj.fastcampus_aop_part5_chapter06'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.jkj.fastcampus_aop_part5_chapter06"
         minSdk 23
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -59,8 +59,8 @@ dependencies {
     implementation 'org.koin:koin-androidx-fragment:2.2.2'
 
     // Jetpack Navigation
-    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
-    implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.3'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
 
     // Jetpack Room
     implementation 'androidx.room:room-runtime:2.3.0'
