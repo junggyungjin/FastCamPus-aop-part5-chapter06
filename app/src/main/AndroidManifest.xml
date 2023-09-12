@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FastCamPusaoppart5chapter06"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:usesCleartextTraffic="true"
         tools:replace="android:appComponentFactory"
         tools:targetApi="p">
         <activity android:name=".MainActivity"

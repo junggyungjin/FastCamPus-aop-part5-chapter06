@@ -1,4 +1,4 @@
-package com.jkj.fastcampus_aop_part5_chapter06.entity
+package com.jkj.fastcampus_aop_part5_chapter06.data.entity
 
 import com.google.gson.annotations.SerializedName
 

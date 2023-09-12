@@ -1,10 +1,10 @@
-package com.jkj.fastcampus_aop_part5_chapter06.db
+package com.jkj.fastcampus_aop_part5_chapter06.data.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.jkj.fastcampus_aop_part5_chapter06.entity.TrackingItem
+import com.jkj.fastcampus_aop_part5_chapter06.data.entity.TrackingItem
 
 @Database(
     entities = [TrackingItem::class],
