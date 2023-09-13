@@ -1,6 +1,7 @@
 package com.jkj.fastcampus_aop_part5_chapter06.data.api
 
 import com.jkj.fastcampus_aop_part5_chapter06.BuildConfig
+import com.jkj.fastcampus_aop_part5_chapter06.data.entity.ShippingCompanes
 import com.jkj.fastcampus_aop_part5_chapter06.data.entity.TrackingInfomation
 import retrofit2.Response
 import retrofit2.http.GET
@@ -15,10 +16,10 @@ interface SweetTrackerApi {
     ): Response<TrackingInfomation>
 
     @GET("api/v1/companylist?t_key=${BuildConfig.SWEET_TRACKER_API_KEY}")
-    suspend fun getShippingCompanies(): Response<ShippingCompanies>
+    suspend fun getShippingCompanies(): Response<ShippingCompanes>
 
     @GET("api/v1/recommend?t_key=${BuildConfig.SWEET_TRACKER_API_KEY}")
     suspend fun getRecommendShippingCompanies(
         @Query("t_invoice") invoice: String
-    ): Response<ShippingCompanies>
+    ): Response<ShippingCompanes>
 }
